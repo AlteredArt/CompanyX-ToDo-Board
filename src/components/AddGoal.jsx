@@ -20,18 +20,12 @@ addGoal(){
 }
 
 
-// getTime() {
-//     return new Date()
-
-// }
-
-
     render(){
         return(
         <div className="form-block">
             <div className="form-group">
-            <h3>CompanyXs' goals to complete today!</h3>
-            <p className="ml-5 today">Todays Date: {this.state.curTime}</p>
+            <h3 style={{textDecoration: "underline black"}}>CompanyXs' goals to complete today!</h3>
+            <p className="ml-5 today">Todays' Date: {this.state.curTime}</p>
                 <input
                     type="text"
                     placeholder="Add A Goal"

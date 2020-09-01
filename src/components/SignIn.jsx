@@ -27,20 +27,20 @@ signIn () {
 
 render() {
     return (
-      <div className="form-block" style={{margin: '5%'}}>
-        <h2>Sign In</h2>
+      <div className="form-block" style={{margin: '10%'}}>
+        <h2 style={{textDecoration: "underline black"}}>Sign In to get your day Started!</h2>
         <div className="form-group">
           <input
             className="form-control"
             type="text"
-            style={{marginRight: '5px'}}
+            style={{marginRight: '5px', marginBottom: "10px"}}
             placeholder="email"
             onChange={event => this.setState({email: event.target.value})}
           />
           <input
             className="form-control"
             type="password"
-            style={{marginRight: '5px'}}
+            style={{marginRight: '5px', marginBottom: "10px"}}
             placeholder="password"
             onChange={event => this.setState({password: event.target.value})}
           />
@@ -53,7 +53,7 @@ render() {
           </button>
         </div>
         <div>{this.state.error.message}</div>
-      <div><Link to={'/signup'}>Sign up instead</Link></div>
+      <div><Link to={'/signup'}>Sign up instead?</Link></div>
       </div>
     )
   }

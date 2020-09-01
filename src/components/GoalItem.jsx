@@ -22,7 +22,7 @@ completeGoal(){
         return (
             <div stlye={{margin: "5px"}}>
                 <strong style={{color: 'red'}}>{title}</strong>
-                <span> submitted by: <em style={{color: 'orange'}}>{email}</em></span>
+                <span> submitted by: <em style={{color: 'blue'}}>{email}</em></span>
                 <button className="btn btn-sm btn-success" style={{margin: '15px'}} onClick={() => this.completeGoal()}
                 >Done</button>
             </div>
