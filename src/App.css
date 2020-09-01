@@ -1,9 +1,22 @@
 body {
-    background-color: rgb(35, 180, 190);
+    /* background-color: rgb(197, 192, 192); */
+    background-image: linear-gradient(to right, rgb(206, 198, 198), rgb(190, 220, 231));
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 45px;
+    margin: 25px;
 }
 
 .today{
     font-weight: bold;
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+}
+
+
+.form-inline {
+    display: flex;
+    grid-auto-flow: column;
+    gap: 15%;;
 }

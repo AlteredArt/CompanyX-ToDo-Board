@@ -12,8 +12,9 @@ class NavBar extends React.Component{
         return(
             <div>
                 <div className="form-inline">
-                <h1>Welcome User!</h1>
+                <h1>Welcome, lets be productive today!</h1>
                 <button className="btn btn-danger" onClick={() => this.signOut()}>Sign Out</button>
+                <hr />
                 </div>
                 
             </div>
