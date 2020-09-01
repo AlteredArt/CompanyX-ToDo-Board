@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(35, 180, 190);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 45px;
+}
+
+.today{
+    font-weight: bold;
+}

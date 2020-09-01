@@ -1,31 +1,34 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {firebaseApp} from '../firebase';
+
+import AddGoal from './AddGoal';
+import GoalList from './GoalList';
+import CompleteGoalList from './CompleteGoalList';
+import NavBar from './NavBar';
 
 
 class App extends Component {
 
-    signOut(){
-        firebaseApp.auth().signOut();
-    }
+ 
 
     render(){
         return (
-            <div>App
-            
-            <button
-                className="btn btn-danger"
-                onClick={() => this.signOut()}
-            >
-                Sign Out            
-            </button>
-            </div>
-        )
+            <div>
+                <NavBar />
+                    
+                    <AddGoal />
+                    <hr/>
+                    <h4>Goals</h4>
+                    <GoalList />
+                    <hr/>
+                    <CompleteGoalList />
+                    </div>
+                )
     }
 }
 
 function mapStateToProps(state) {
-    console.log('state', state);
+    // console.log('state', state);
     return{}
 }
 
