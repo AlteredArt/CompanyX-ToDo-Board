@@ -7,4 +7,4 @@ Company X Daily To Do Board
     Any authenticated user can add goals, while self or other auth users can complete said goals. 
     Feel free to try it out on mobile as well, and leave comments. Thank You.
 
-Demo: https://companyx-todo-board.web.app/signin
+Demo: https://companyx-todo-board.web.app/
